@@ -1,16 +1,16 @@
 baseURL = "https://portfoliohubs.github.io/drmohamedabdelhamid/"
 languageCode = "en-us"
-title = "Dr. Mohamed Abdelhamid Sayed Ahmed"
+title = "Dr. Mohamed Abdelhamid Sayedahmed"
 defaultContentLanguage = "en"
 
 [params]
   # Hero Section
   [params.hero]
-    name = "Dr. Mohamed Abdelhamid Sayed Ahmed"
+    name = "Dr. Mohamed Abdelhamid Sayedahmed"
     tagline = "Internship Doctor"
     graduation = "Graduated 2025 - Faculty of Dentistry"
     profile_image = "https://github.com/user-attachments/assets/10d465f6-5aa6-42f3-940b-bc28e20a31c1"
-    profile_image_alt = "Profile photo of Dr. Mohamed Abdelhamid Sayed Ahmed"
+    profile_image_alt = "Profile photo of Dr. Mohamed Abdelhamid Sayedahmed"
     
     [params.hero.current_position]
       role = "Internship Doctor"
@@ -18,9 +18,9 @@ defaultContentLanguage = "en"
 
   [params.seo]
     description = "Professional dental portfolio"
-    doctor_name_en = "Dr. Mohamed Abdelhamid Sayed Ahmed"
-    doctor_name_ar = "د. محمد عبدالحميد سيد أحمد"
-    site_name = "Dr. Mohamed Abdelhamid Sayed Ahmed"
+    doctor_name_en = "Dr. Mohamed Abdelhamid Sayedahmed"
+    doctor_name_ar = "د. محمد عبدالحميد محمد سيد احمد"
+    site_name = "Dr. Mohamed Abdelhamid Sayedahmed"
     og_image = ""
     favicon_image = ""
     twitter_handle = ""
@@ -29,7 +29,7 @@ defaultContentLanguage = "en"
       "dental clinic",
       "cosmetic dentistry",
       "restorative dentistry",
-      "Dr. Mohamed Abdelhamid Sayed Ahmed",
+      "Dr. Mohamed Abdelhamid Sayedahmed",
       "mansoura",
       "DENTIST IN MANSOURA",
       "DENTAL CLINIC IN MANSOURA",
@@ -40,13 +40,13 @@ defaultContentLanguage = "en"
       "عيادة أسنان",
       "تجميل الأسنان",
       "ترميم الأسنان",
-      "د. محمد عبدالحميد سيد أحمد",
+      "د. محمد عبدالحميد محمد سيد احمد",
       "طبيب بالمنصورة",
       "عيادة بالمنصورة",
-      "دكتور محمد عبدالحميد",
-      "عيادة محمد عبدالحميد",
+      "دكتور محمد عبدالحميد محمد سيد احمد",
+      "عيادة محمد عبدالحميد محمد سيد احمد",
       "عيادة اسنان المنصورة",
-      "محمد عبدالحميد اسنان"
+      "محمد عبدالحميد محمد سيد احمد اسنان"
     ]
 
   [params.integrations]
@@ -104,14 +104,13 @@ defaultContentLanguage = "en"
   # Skills Section
   [params.skills]
     clinical = [
-      "Surgery",
-      "Endodontics"
+      "Surgery and Endodontic",
+      "surgery and endodontic"
     ]
     
     digital = [
-      "Photography",
-      "Photo Editor",
-      "PowerPoint"
+      "Photography and Photo Editor",
+      "photography and photo editor"
     ]
     
     soft = [
@@ -237,10 +236,10 @@ defaultContentLanguage = "en"
 # Arabic Translations
 [params.ar]
   [params.ar.hero]
-    name = "د. محمد عبدالحميد سيد أحمد"
+    name = "د. محمد عبدالحميد محمد سيد احمد"
     tagline = "طبيب امتياز"
     graduation = "تخرج 2025 - كلية طب الأسنان"
-    profile_image_alt = "صورة الملف الشخصي للدكتور محمد عبدالحميد سيد أحمد"
+    profile_image_alt = "صورة الملف الشخصي للدكتور محمد عبدالحميد محمد سيد احمد"
     
     [params.ar.hero.current_position]
       role = "طبيب امتياز"
@@ -248,12 +247,13 @@ defaultContentLanguage = "en"
   
 [params.ar.skills]
     clinical = [
-      "جراحه",
-      "حشو عصب"
+      "جراحه حشو عصب",
+      "surgery and endodontic"
     ]
     
     digital = [
-      "power point photo and video editing"
+      "power point photo and video editing",
+      "photography and photo editor"
     ]
     
     soft = [
