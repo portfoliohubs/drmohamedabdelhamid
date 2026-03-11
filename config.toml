@@ -171,8 +171,8 @@ defaultContentLanguage = "en"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "operative"
-    category_ar = "اوبرتيف"
+    category = "restoration"
+    category_ar = "حشو"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/781df7cc-8bb4-49a5-a2f7-122bcfc00d33"
@@ -183,8 +183,8 @@ defaultContentLanguage = "en"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "operative"
-    category_ar = "اوبرتيف"
+    category = "esthetic"
+    category_ar = "تجميل"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/eb1118b3-9e36-4389-bbe8-30b52f94d0a6"
@@ -195,8 +195,8 @@ defaultContentLanguage = "en"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "operative"
-    category_ar = "اوبرتيف"
+    category = "composite"
+    category_ar = "مركب"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/45f6ac41-c5c2-48c1-b507-c5952b733d08"
@@ -207,8 +207,8 @@ defaultContentLanguage = "en"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "operative"
-    category_ar = "اوبرتيف"
+    category = "cosmetic"
+    category_ar = "تجميلي"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/4dc40a1e-a671-4f55-b76a-29793c681541"
