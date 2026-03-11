@@ -1,0 +1,330 @@
+baseURL = "https://portfoliohubs.github.io/MICKY/"
+languageCode = "en-us"
+title = "Dr. Michael Nabil"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Michael Nabil"
+    tagline = "Internship Doctor"
+    graduation = "Graduated 2025 - Faculty of Dentistry"
+    profile_image = "https://github.com/user-attachments/assets/10d465f6-5aa6-42f3-940b-bc28e20a31c1"
+    profile_image_alt = "Profile photo of Dr. Michael Nabil"
+    
+    [params.hero.current_position]
+      role = "Internship Doctor"
+      clinic = "Internship Doctor at Mansoura University Hospital"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Michael Nabil"
+    doctor_name_ar = "د. مايكل نبيل"
+    site_name = "Dr. Michael Nabil"
+    og_image = ""
+    favicon_image = ""
+    twitter_handle = ""
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Michael Nabil",
+      "mansoura",
+      "DENTIST IN MANSOURA",
+      "DENTAL CLINIC IN MANSOURA",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "د. مايكل نبيل",
+      "طبيب بالمنصورة",
+      "عيادة بالمنصورة",
+      "دكتور مايكل نبيل",
+      "عيادة مايكل نبيل",
+      "عيادة اسنان المنصورة",
+      "مايكل نبيل اسنان"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Surgery",
+      "Endodontics",
+      "Cosmetic Dentistry"
+    ]
+    
+    digital = [
+      "Photography",
+      "Photo Editor",
+      "PowerPoint"
+    ]
+    
+    soft = [
+      "Sociable"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Egyptian Russian University"
+    graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = ""
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = ""
+    
+    [[params.education.timeline]]
+      year = "2020"
+      event = "Start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "Graduated from faculty of dentistry"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "fixed"
+    category_ar = "فيكسيد"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/518b8fb2-4821-4063-b975-b53ca5982d77"
+      alt = "fixed prothodintic case"
+      description = "fixed prothodintic case"
+      alt_ar = "حالة تركيب ثابت"
+      description_ar = "حالة تركيب ثابت"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "composite restoration"
+    category_ar = "حاله حشو عادي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/c2495d54-9716-4c7e-b77a-60ca6475fab1"
+      alt = "composite restoration"
+      description = "composite restoration"
+      alt_ar = "حاله حشو عادي"
+      description_ar = "حاله حشو عادي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "deep caries"
+    category_ar = "حشو عميق"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/781df7cc-8bb4-49a5-a2f7-122bcfc00d33"
+      alt = "deep caries management"
+      description = "deep caries management"
+      alt_ar = "حشو عميق"
+      description_ar = "حشو عميق"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "esthetic case 1"
+    category_ar = "حاله تجميليه 1"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/eb1118b3-9e36-4389-bbe8-30b52f94d0a6"
+      alt = "esthetic case"
+      description = "esthetic case"
+      alt_ar = "حاله تجميليه"
+      description_ar = "حاله تجميليه"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "composite restoration 2"
+    category_ar = "حاله حشو 2"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/45f6ac41-c5c2-48c1-b507-c5952b733d08"
+      alt = "composite restoration"
+      description = "composite restoration"
+      alt_ar = "حاله حشو"
+      description_ar = "حاله حشو"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "esthetic case 2"
+    category_ar = "حاله تجميليه 2"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/4dc40a1e-a671-4f55-b76a-29793c681541"
+      alt = "esthetic case"
+      description = "esthetic case"
+      alt_ar = "حاله تجميليه"
+      description_ar = "حاله تجميليه"
+      
+  # Contact Section
+  [params.contact]
+    phone = "+201556085174"
+    whatsapp = "+201556085174"
+    email = "mohammed74sayedahmed@gmail.com"
+    instagram = "https://www.instagram.com/mezo_sayedahmed?igsh=cHBkOGs3ODNsNG5t&utm_source=qr"
+    facebook = "https://www.facebook.com/share/1EA6Xz3nc3/?mibextid=wwXIfr"
+    linkedin = ""
+    tiktok = "https://www.tiktok.com/@mezosayedahmed10?_r=1&_t=ZS-94ZzP6ZmJnk"
+    
+    [params.contact.location]
+      enabled = true
+      address = "El-Nasereya, Samannoud, Gharbia Governorate"
+      latitude = "30.935510715743213"
+      longitude = "31.247711315341586"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. مايكل نبيل"
+    tagline = "طبيب امتياز"
+    graduation = "تخرج 2025 - كلية طب الأسنان"
+    profile_image_alt = "صورة الملف الشخصي للدكتور مايكل نبيل"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب امتياز"
+      clinic = "طبيب امتياز في مستشفى جامعة المنصورة"
+  
+[params.ar.skills]
+    clinical = [
+      "جراحه",
+      "حشو عصب",
+      "حشو تجميلى"
+    ]
+    
+    digital = [
+      "power point photo and video editing"
+    ]
+    
+    soft = [
+      "اجتماعي"
+    ]
+    
+  
+  [params.ar.education]
+    university = "الجامعه المصويه الروسيه"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "2020 الدخول الى الكليه"
+    
+    [[params.ar.education.timeline]]
+      event = "2025 التخرج من الكليه"  
+
+  [params.ar.contact.location]
+    address = "الناصريه سمنود غربيه"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
